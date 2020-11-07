@@ -1,3 +1,4 @@
+我的自习003
 <!DOCTYPE html>
 <html>
 <head>
@@ -12,18 +13,25 @@
 <body>
 
 <div class="container text-center display-1">
-<h1 class="display-4">我发布的自习</h1>
+<h1>我发布的自习</h1>
   </div>
 
 <!-- 导航居中 -->
-<ul class="nav justify-content-center">
-<nav class="breadcrumb breadcrumb-pills nav-justified">
-  <a class="breadcrumb-item" href="#">全部</a>
-  <a class="breadcrumb-item" href="#">未开始</a>
-  <a class="breadcrumb-item" href="#">进行中</a>
-  <a class="breadcrumb-item" href="#">已完成</a>
-</nav>
-</ul>
+    <div class="container">
+        <ul class="nav nav-pills nav-justified justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active"  data-toggle="pill" href="#">全部</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#">未开始</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#">进行中</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="pill" href="#">已完成</a>
+          </li>
+        </ul><br>
 
 <div class="card m-auto" style="max-width: 385px;">
   <div class="row no-gutters">
