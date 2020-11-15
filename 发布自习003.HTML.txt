@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>我的自习</title>
+</head>
+<body>
+<h1>发布自习<h1>
+
+    <form action="welcome.php" method="post">
+        <label>用户名：<input type="text" name="name"></label><br><br>
+        <label>时间：<input type="text" name="time"></label><br><br>
+        <label>地点：<input type="text" name="place"></label><br><br>
+        <button type="submit">提交</button>
+    </form>
+</body>
+</html>
