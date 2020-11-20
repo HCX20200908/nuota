@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>我的自习</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/head.css" >
+</head>
+
+<body>
+<h1>发布自习</h1>
+
+    <form action="welcome.php" method="post">
+        <label>用户名：<input type="text" name="name" required size=28></label><br><br>
+        <label>时间：<input type="datetime-local" name="time" required size=35></label><br><br>
+        <label>地点：<input type="text" name="place" required size=30 list="urllist"></label><br><br>
+		<label>备注：<input type="text" name="text" placeholder=“可不填” size=30></label><br><br>
+        <button type="submit">发布</button>
+		<input type="submit" name="submit" value="发布">
+		<input type="reset" name="reset" value="清空">
+    </form>
+
+<!--与地点项用ID关联-->
+<datalist id="urllist">
+<option value="博学楼">博学楼</option>
+<option value="34号楼">34号楼</option>
+</datalist>
+
+</body>
+</html>
