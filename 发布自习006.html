@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>发布自习</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <link href="bootstrap-datetimepicker.min.css" rel="stylesheet" />/*（重要，这就是日期控件所需的样式表）*/
+  <link rel="stylesheet" href="css/index.css" />
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <script src="${basePath}/resources/plugins/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+<script src="${basePath}/resources/plugins/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+</head>
+<body>
+
+<div class="jumbotron text-center" style="margin-bottom:0;;color: rgb(0, 132, 255) ;background-color: white">
+  <h1>发布自习</h1>
+</div>
+
+
+<div class="container mt-3" >
+  <div class="clearfix" style="margin-bottom: 150px;">
+<form>
+  <div class="input-group mb-3" >
+    <label class="text" >时间：</label>
+    <!--<div class="input-group-prepend " >
+      <span class="input-group-text" >时间:</span>
+    </div>-->
+    <input type="text" placeholder="请输入时间(*^▽^*)" class="form-control" style="border-radius:100px">
+  </div>
+</form>
+</div>
+
+<div class="clearfix" style="margin-bottom: 150px;">
+<form>
+    <div class="input-group mb-3">
+      <label class="text" >地点：</label>
+      <!--<div class="input-group-prepend" >
+        <span class="input-group-text">地点:</span>
+      </div>-->
+      <input type="text" placeholder="请输入地点(✪ω✪)" class="form-control" style="border-radius:100px">
+    </div>
+  </form>
+</div>
+
+<!--<div class="clearfix" style="margin-bottom: 150px;">
+  <form>
+    <div class="input-group mb-3">
+      <label class="text" >备注：</label>
+       <textarea name="text" rows="2" cols="142"  style="border-radius:25px"></textarea>    
+    </div>
+  </form>  
+</div>-->
+ 
+<div class="clearfix" style="margin-bottom: 150px;">
+  <form>
+      <div class="input-group mb-3">
+        <label class="text" >备注：</label>
+        <!--<div class="input-group-prepend" >
+          <span class="input-group-text">地点:</span>
+        </div>-->
+        <input type="text"  placeholder="此处可不填(〃'▽'〃)" class="form-control" style="border-radius:100px">
+      </div>
+    </form>
+  </div>
+</div>
+      
+    
+ <!--<div style="text-align:center">
+  <div class="jumbotron text-center" style="margin-bottom:0;background-color:#fff;">
+<button type="submit" class="btn btn-primary" >发布</button>
+</div>
+</div>-->
+
+<!--流光按钮-->
+<div class="parent">
+<a href="#">发布</a>
+</div>
+</body>
+</html>
