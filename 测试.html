@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>发布自习</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+  <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+    .container mt-3 {
+        background: #aaa;
+    }
+    .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+    </style>
+</head>
+<body>
+<!-- 模态弹出窗内容 -->
+            <div class="modal" tabindex="-1" role="dialog"
+                aria-labelledby="myLargeModalLabel" aria-hidden="true"
+                id="mymodal-link">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">
+                                <span aria-hidden="true">&times;</span><span class="sr-only">Close</span>
+                            </button>
+                            <h4 class="modal-title">个人信息</h4>
+                        </div>
+                        <div class="modal-body">
+                        <form action="modifyoneteacher.do" class="form-horizontal" role="form">
+                            <div class="form-group">
+                                <label for="uname" class="col-sm-2 control-label">用户名</label>
+                            <div class="col-sm-9">
+                                <input type="text" readonly="readonly"
+                                    value="Jhon Deo Alex" class="form-control" id="uname" name="uname">
+                            </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="pwd" class="col-sm-2 control-label">密码</label>
+                            <div class="col-sm-9">
+                                <input type="text" readonly="readonly"
+                                    value="111asda55" class="form-control" id="pwd" name="pwd">
+                            </div>
+                            </div>
+                    </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default"
+                                data-dismiss="modal">修改</button>
+                            <button type="button" class="btn btn-primary">保存</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+        </html>
